@@ -1,0 +1,77 @@
+.modal-new {
+  background: #000000eb;
+  position: fixed;
+  left: 0;
+  top: 0;
+  flex-direction: column;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  margin: 0;
+}
+
+.btn-upload > div {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: wheat;
+}
+
+.btn-upload > div  > i {
+    font-size: 23px;
+    color: wheat;
+    margin-right: 5px;
+}
+.btn-upload {
+    background: none;
+    color: wheat;
+    border-color: white;
+    padding: 6px 25px;
+    height: 48px;
+    width: 130px;
+    margin-top: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    background: rgba(0, 0, 0, 0.685);
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+.modal-hide {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: wheat;
+  border: 1px solid wheat;
+}
+
+.display-img {
+    height: auto !important;
+    width: 302px !important;
+    border: 2px solid;
+    border-radius: 19px;
+}
+
+.modal-title {
+  font-size: 50px;
+  color: wheat;
+  margin: 30px 0;
+}

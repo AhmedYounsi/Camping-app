@@ -1,0 +1,33 @@
+.h1{
+    color: violet;
+}
+
+.masonry{
+    min-height: 70vh;
+    margin: 20px 250px;
+  
+}
+
+@media (max-width: 1500px) {
+    .masonry{
+     
+        margin: 20px 150px;
+      
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .masonry{
+     
+        margin: 20px 100px;
+      
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .masonry{
+     
+        margin: 20px 20px;
+      
+    }
+  }

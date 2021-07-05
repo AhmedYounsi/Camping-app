@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .wallpaper{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    top: -15px;
+  }
+  .error-msg> i {
+    margin: 0 5px;
+    transform: translateY(1px);
+  }
+.error-msg{
+  top: 68px;
+  padding: 5px;
+  margin: 0;
+    color: #f44336;
+    width:300px;
+   
+    font-weight: 600;
+    font-family: monospace;
+}
+form{
+  
+  margin-top: 25px;
+  width: 300px;
+  margin: auto;
+}
+  body {
+    
+  }
+  section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #b6b5b510;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .form-group {
+     width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid rgba(63, 63, 63, 0.199);
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  button[type="submit"] {
+ 
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 8px;
+    
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.3s ease background-color;
+    background-color: rgb(47, 114, 55);
+  }
+  button[type="submit"]:hover {
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+  }
+  
+  
+  
+  .title-contact {
+    
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #17002c;
+  }
+  
+  .div-map1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+  }
+  
+  .div-map0 {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 610px;
+    height: 460px;
+    background-color: aliceblue;
+  }
+  
